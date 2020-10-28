@@ -1,0 +1,22 @@
+.list-product {
+	display: flex;
+	flex-flow: wrap;
+}
+
+.product-block{
+	height: 100%;
+	text-align: center;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	-webkit-align-items: center;
+	justify-content: center;
+	-webkit-justify-content: center;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+.product-block h2{
+	font-size: 28px;
+	margin: 0 0 10px;
+}

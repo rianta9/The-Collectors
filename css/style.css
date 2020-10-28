@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 1.4;
+	font-size: 14px;
+	color: #292929;
+	overflow-x: hidden;
+	background: #fff;
+	position: initial !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #292929;
+	margin: 0 0 13px 0;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+
+a {
+	color: #292929;
+	text-decoration: none;
+	outline: none;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: #292929;
+	line-height: 1.1;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav.navbar-center {
+		position: absolute;
+		left: 50%;
+		transform: translatex(-50%);
+	}
+}
+
+img.brand{
+	vertical-align: middle;
+	max-width: 160px;
+}
+
+
+ul.nav li{
+	margin: 4px 0;
+}
+
+ul.nav li:hover{
+	border-bottom: 2px solid #000;
+}
+
+ul.dropdown-menu li{
+	display: list-item;
+	text-align: -webkit-match-parent;
+	position: relative;
+	border-top: 1px solid #ecf0f1;
+	margin: 0;
+	padding: 3px 0;
+}
+
+ul.dropdown-menu li:hover{
+	border-bottom: 0;
+}
+
+.button{
+	position: relative;
+	display: inline-block;
+	padding: 10px 28px;
+	line-height: normal;
+	text-align: center;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.button .dark{
+	color: #fff;
+	border-color: #292929;
+	background-color: #292929;
+}
