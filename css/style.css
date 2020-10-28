@@ -1,4 +1,5 @@
 *{
+	font-family: 'Quicksand', sans-serif;	
 	margin: 0;
 	padding: 0;
 }
@@ -20,10 +21,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-a {
+a{
 	color: #292929;
 	text-decoration: none;
 	outline: none;
+}
+
+a:hover{
+	color: #292929;
+	text-decoration: none;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -64,20 +70,4 @@ ul.dropdown-menu li{
 
 ul.dropdown-menu li:hover{
 	border-bottom: 0;
-}
-
-.button{
-	position: relative;
-	display: inline-block;
-	padding: 10px 28px;
-	line-height: normal;
-	text-align: center;
-	font-size: 12px;
-	text-transform: uppercase;
-}
-
-.button .dark{
-	color: #fff;
-	border-color: #292929;
-	background-color: #292929;
 }
